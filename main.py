@@ -42,8 +42,9 @@ def check_input():
 
 
 def check_var_add():
-    a = str(input('$: '))    
-    b = str(input('$: '))   
+    a = str(input('a: '))    
+    print('/')
+    b = str(input('b: '))   
     a = a.split('/')[0]
     b = b.split('/')[0] 
     a = int(a)
