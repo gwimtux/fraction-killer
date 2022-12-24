@@ -43,7 +43,6 @@ def check_input():
 
 def check_var_add():
     a = str(input('a: '))    
-    print('/')
     b = str(input('b: '))   
     a = a.split('/')[0]
     b = b.split('/')[0] 
@@ -53,7 +52,6 @@ def check_var_add():
 
 def check_var_sub():
     a = str(input('a: '))    
-    print('/')
     b = str(input('b: '))
     a = a.split('/')[0]
     b = a.split('/')[0] 
